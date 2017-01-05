@@ -1,0 +1,61 @@
+<!DOCTYPE <html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Jinliang Guo">
+	<meta name="description" content="A simple chat room">
+	<title>chat room</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="windows">
+
+		<div class="name">
+
+		 <p id="chatRoomName">Chat Room</p> 
+
+		</div>
+
+
+        <!-- This is for show online people -->
+    	<div class="onlinePeople">
+			<p id="onlinePeopleTitle">Currently 0 user online</p>
+
+		<div class="onlinePeopleShow"></div>
+
+		</div>
+
+
+        <!-- this is for historyMessage screen part -->
+		<div class="historyMessage"></div>
+
+
+		<!-- this is for input part -->
+		<div class="inputMessage">
+			<textarea id="textInput" rows="6" cols="68" placeholder="enter to send"></textarea>
+
+			<input id="sendButton" type="button" value="SEND">
+		</div>
+
+		
+	</div>
+
+	<div class="loginPage">
+		<div class="loginPageHello">
+			<p id="loginHello">Use your name to login in the chat room.</p>
+		</div>
+
+		<div class="inputLoginInfo">
+			<input type="text" name="Name">
+			<input type="button" value="LOGIN">
+		</div>
+
+		<div class="connectInformation">
+			<p id="connectInfo">Connecting to server...</p>
+		</div>
+	</div>
+
+</body>
+</html>
